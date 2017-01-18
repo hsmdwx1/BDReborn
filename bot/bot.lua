@@ -1,7 +1,7 @@
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
-our_id = 265541133 -- Put Here Your Bot ID
+our_id = 322922661 -- Put Here Your Bot ID
 --ایدی رباتتونو اینجا بزارید
 json = (loadfile "./libs/JSON.lua")()
 mimetype = (loadfile "./libs/mimetype.lua")()
@@ -79,7 +79,7 @@ function create_config( )
     "plugins",
     "tools"
  },
-    sudo_users = {157059515},
+    sudo_users = {322600226},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
